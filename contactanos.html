@@ -1,0 +1,102 @@
+<html>
+<body bgcolor="040707">
+<head> <title> Stussy </title> </head>
+<style>
+.letrero{position:absolute;
+	background-image: url("https://media.sivasdescalzo.com/media/wysiwyg/2018/04ABRIL/BLOG/StussySS18/1492555247_MLTD_Stussy_Banner_1170x385.png");
+	background-size: 1000px 250px;
+	width :1000px;
+    height :250px;
+	left: 200 ;}
+.enlacepg{position:absolute;
+	background-image: url("https://www.aerial-living.com/wp-content/uploads/2016/08/amarillo-fluor.jpg"); 
+	width :1000px;
+    height :30px;
+	top: 280;
+	left:200 ;}
+	.enlace1{ color:gray;
+	font-family: curier new;
+	position:absolute;
+	top: 6px;
+	right: 30}
+.textocontacto{ color:gray;
+	font-family: curier new;
+	position:absolute;
+	top: 6px;
+	right: 10}
+.textohistoria{ color:gray;
+	font-family: curier new;
+	position:absolute;
+	top: 6px;
+	right: 300}
+.textoprendas{ color:gray;
+	font-family: curier new;
+	position:absolute;
+	top: 6px;
+	right: 600;}
+
+.indice{color:gray;
+	font-family: cursive;
+	position:absolute;
+	top: 6px;
+	right: 370;}
+.mapa {position:absolute;
+	top: 370;
+	left:190;}
+.formulario{position:absolute;
+color:yellow;
+font-family: curier new;
+top:370;
+left: 825;}
+	
+.textoletrero{font-family: curier new;
+text-transform: uppercase;
+color:yellow;
+position:absolute;
+	top:230px;
+right: 10px;
+ font-size: smaller;}
+.indice{ color:gray;
+	font-family: curier new;
+	position:absolute;
+	top: 6px;
+	right: 890}
+.fecha{ color:yellow;
+position:absolute;
+top: 870;
+left:615;}
+</style>
+	<body>
+		<div class="letrero"> <h1 class="textoletrero" > INSPIRED BY YOU </h1> </div>
+		
+		<div class="enlacepg">
+		<a href="contactanos.html" class="textocontacto"> CONTACTANOS </a> 
+		<a href="nuestrahistoria.html" class="textohistoria"> NUESTRA HISTORIA </a> 
+		<a href="prendas.html" class="textoprendas"> PRENDAS </a>  
+		<a href="index1.html" class="indice"> NOVEDADES </a> </div>
+		</div>
+		<div class="mapa">		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.260916384119!2d-3.697010185194462!3d40.425221063048106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42288fa5c46149%3A0x65185f3066c0a20f!2sSt%C3%BCssy%20Madrid!5e0!3m2!1ses!2ses!4v1648986226451!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+		<div class="formulario"> 
+		<fieldset>
+		<form>
+		<legend>Escríbanos para más información</legend>
+<p> NOMBRE   <input type="text" name="nombre" size="20"></p>
+<p> CORREO/TELÉFONO   <input type="text" name="telefono" size="20"></p>
+MENSAJE 
+<br> 
+<textarea name="texto" rows="10" cols="40"></textarea>
+</fieldset>
+<br>
+<input type="reset" value= "Ok">
+</form>
+</div>
+<center> <div class="fecha" id="current_date"></p><script>
+date = new Date();
+year = date.getFullYear();
+month = date.getMonth() + 1;
+day = date.getDate();
+document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+</script>
+<p> @stussydepartmentstore </p> </center>
+	</body>
+</html>
